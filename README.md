@@ -1,0 +1,2 @@
+# ADEASY
+project for hackathon
