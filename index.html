@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Local Seller Marketing MVP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📢 Local Seller Marketing MVP</h1>
+
+    <label class="file-label">
+      Choose Image
+      <input type="file" id="imageInput" accept="image/*">
+    </label>
+
+    <img id="preview" class="preview-img">
+
+    <button class="btn" onclick="generateCaption()">Generate Caption</button>
+
+    <textarea id="caption" placeholder="AI caption will appear here..." readonly></textarea>
+
+    <button class="btn post-btn" onclick="postToInstagram()">Post to Instagram</button>
+
+    <h2>📜 Post History</h2>
+    <div id="postHistory" class="post-history"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
