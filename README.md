@@ -4,13 +4,13 @@ project for hackathon
 ADEASY is a simple MVP that helps local sellers create marketing posts easily using AI-generated captions and image uploads.
 ## 🔗 GitHub Repository
 👉 https://github.com/khushbu-stack/ADEASY
-## 🎯 MVP Features
+##  MVP Features
 - 📸 Upload product image
 - ✨ Generate AI marketing caption
 - 📤 Simulate Instagram posting
 - 📜 View post history
 
-## 🖥️ Tech Stack
+##  Tech Stack
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js, Express
 - Tools: GitHub, VS Code
